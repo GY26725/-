@@ -26,7 +26,3 @@ jobs:
       - name: weixin
         run: |
           python3 main.py
-try:
-    sys.exit(app.exec_())
-except:
-    print("Exiting")
